@@ -1,0 +1,69 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('fundo-textura.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: red;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#banner {
+    background: rgba(0,0,0,0.7);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#produtos {
+    padding: 20px;
+}
+
+.produto {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    background: rgba(255, 255, 255, 0.9);
+    text-align: center;
+}
+
+.produto img {
+    width: 200px;
+    height: auto;
+}
+
+button {
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #900;
+}
+
+#contato {
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #000;
+    color: white;
+}
